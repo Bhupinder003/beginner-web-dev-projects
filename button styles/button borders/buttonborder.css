@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container{
+    display: flex;
+    border: 2px solid red;
+    padding: 10px;
+}
+.button
+{
+    padding: 15px 20px;
+    margin: 15px 50px;    
+    border: none;
+    position: relative;
+
+}
+
+/* button1 */
+
+#button1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: red;
+    transform: scaleX(0);
+    transition: ease-in-out 0.3s;
+}
+#button1:hover::before,
+#button1:focus::before{
+    transform: scaleX(0.5);
+    
+}
