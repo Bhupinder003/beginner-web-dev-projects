@@ -1,0 +1,17 @@
+a) basic ui based			// time 2-3weeks  start date 25 sep 2021
+1. clock	
+2. animations
+	2.1 loading page animations
+	2.2 hover animations
+
+b) basic api calls	-- free apis from rapid-api.com
+1. covid tracker
+2. weather app
+
+c) basic database sharing
+		- store user data
+		- form inputs
+1. recipie site
+2. reddit feeds
+3. news feed
+							
